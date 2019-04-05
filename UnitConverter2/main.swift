@@ -22,7 +22,7 @@ struct UnitConverter {
     }
 }
 
-let lengthConverter = UnitConverter(["cm": 1.0, "m": 100.0, "inch" : 2.54, "yard": 91.44], ["crm": "m", "m": "cm", "inch" : "cm", "yard": "m"])
+let lengthConverter = UnitConverter(["cm": 1.0, "m": 100.0, "inch" : 2.54, "yard": 91.44], ["cm": "m", "m": "cm", "inch" : "cm", "yard": "m"])
 let weightConverter = UnitConverter(["g": 1.0, "kg": 1000.0, "lb" : 453.592, "oz": 28.3495], ["g": "kg", "kg": "g", "lb" : "g", "oz": "g"])
 let volumeConverter = UnitConverter(["L": 1.0, "pt": 0.473176, "qt": 0.946353, "gal": 3.78541], ["L": "pt", "pt": "L", "qt" : "L", "gal": "L"])
 
